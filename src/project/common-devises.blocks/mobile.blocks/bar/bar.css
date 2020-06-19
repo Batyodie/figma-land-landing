@@ -1,0 +1,28 @@
+@media (width <= 991.98px) {
+  .bar {
+    max-width: 333px;
+    width: 100%;
+    &__progress-line {
+      max-width: 333px;
+      &:after {
+        width: 333px;
+      }
+    }
+  }
+}
+
+@media (width <= 375.98px) {
+  .bar {
+    max-width: 315px;
+    width: 100%;
+    &__progress-line {
+      max-width: 310px;
+      &:after {
+        width: 315px;
+      }
+    }
+  }
+  .bar_padding_mobile {
+    padding: 5px;
+  }
+}

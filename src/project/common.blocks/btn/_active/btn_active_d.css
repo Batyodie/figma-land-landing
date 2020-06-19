@@ -1,0 +1,5 @@
+.btn_active_d {
+  &:active {
+    transform: translateY(10px);
+  }
+}

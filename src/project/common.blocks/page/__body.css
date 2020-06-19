@@ -1,0 +1,21 @@
+.page__body {
+  max-width: 1287px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (width >= 1286.98px) {
+  .page__body {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (width >= 1439.98px) {
+  .page__body {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

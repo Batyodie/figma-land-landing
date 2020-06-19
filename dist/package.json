@@ -1,0 +1,10 @@
+{
+  "name": "figma-land",
+  "version": "1.0.0",
+  "description": "Heroku App",
+  "author": "gearmobile",
+  "private": false,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+}

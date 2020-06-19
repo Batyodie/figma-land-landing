@@ -1,0 +1,8 @@
+/* position line modif */
+.burger-btn_position-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  position: relative;
+}

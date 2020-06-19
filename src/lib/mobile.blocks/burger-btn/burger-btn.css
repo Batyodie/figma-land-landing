@@ -1,0 +1,84 @@
+@media (width <= 991.98px) {
+  /* burger btn */
+  .burger-btn {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 0;
+    background: #fff;
+    outline: none;
+    overflow: visible;
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+  }
+
+  /* burger button lines */
+  .burger-btn__line,
+  .burger-btn__line:before,
+  .burger-btn__line:after {
+    background: #000;
+    display: block;
+    height: 2px;
+    opacity: 1;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+  }
+  .burger-btn__line:before,
+  .burger-btn__line:after {
+    content: '';
+  }
+  .burger-btn__line {
+    right: 0;
+    top: 13px;
+    width: 20px;
+  }
+  .burger-btn__line:after {
+    left: 8px;
+    top: 10px;
+    width: 12px;
+  }
+  .burger-btn__line:before {
+    left: -5px;
+    top: -10px;
+    width: 26px;
+  }
+
+  /* burger btn close */
+  .close {
+    transform: rotate(-45deg);
+    background: none;
+    width: 27px;
+    .burger-btn__line {
+      width: 27px;
+      background: #fff;
+    }
+    .burger-btn__line:before {
+      top: 0;
+      left: -1px;
+      transform: rotate(90deg);
+      width: 27px;
+      background: #fff;
+    }
+    .burger-btn__line:after {
+      top: 0;
+      left: 0;
+      transform: rotate(90deg);
+      opacity: 0;
+      width: 0;
+    }
+    .burger-btn__stroke {
+      display: none;
+    }
+  }
+}
+
+@media (width >= 992px) {
+  .burger-btn {
+    overflow: hidden;
+    opacity: 0;
+  }
+}

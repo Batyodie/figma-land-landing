@@ -1,0 +1,19 @@
+/* footer mobile */
+@media (width <= 991.98px) {
+  .footer {
+    &__justify-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      min-height: 618px;
+      align-items: center;
+    }
+    &__logo {
+      min-width: 289px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@media (width >= 376px) {
+  /* header logo wrapper */
+}
+
+@media (width <= 375px) {
+  /* header logo wrapper */
+  .header__logo {
+    margin-left: 0;
+  }
+}

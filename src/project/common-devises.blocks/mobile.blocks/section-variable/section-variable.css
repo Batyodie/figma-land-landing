@@ -1,0 +1,25 @@
+/* section vars-fonts mobile */
+@media (width <= 991.98px) {
+  .section-vars-fonts {
+    min-height: 780px;
+    display: flex;
+    &__wrapper {
+      margin-left: 0;
+      width: 100%;
+      align-items: center;
+    }
+    &__copy {
+      text-align: center;
+    }
+  }
+  .section-vars-fonts__wrapper_mobile_margin {
+    margin-bottom: 52px;
+  }
+}
+
+@media (width <= 375px) {
+  .section-vars-fonts__sub-title_mobile_size {
+    line-height: 30px;
+    font-size: 30px;
+  }
+}

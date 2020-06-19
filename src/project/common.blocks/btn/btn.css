@@ -1,0 +1,16 @@
+/* button */
+.btn {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  line-height: 20px;
+  border: none;
+  outline: none;
+  border-radius: 85px;
+  height: 52px;
+}
+
+/* modif */
+.btn_margin_top {
+  margin-top: 20px;
+}

@@ -1,0 +1,29 @@
+.footer {
+  &__copy {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+  &__links-logo-wrapper {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__image {
+    &:hover {
+      .footer_hover_twitter {
+        fill: rgb(29, 161, 242);
+        transition: 0.5s;
+      }
+      .footer_hover_linkedIn {
+        fill: rgb(40, 103, 178);
+        transition: 0.5s;
+      }
+      .footer_hover_facebook {
+        fill: rgb(66, 103, 178);
+        transition: 0.5s;
+      }
+    }
+  }
+}

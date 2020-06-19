@@ -1,0 +1,8 @@
+.section-pricing {
+  &_background_dark {
+    background: #182333;
+  }
+  &_color_white {
+    color: #fff;
+  }
+}

@@ -1,0 +1,10 @@
+@media (width >= 992px) {
+  .section-file-task__wrapper {
+    max-width: 757px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

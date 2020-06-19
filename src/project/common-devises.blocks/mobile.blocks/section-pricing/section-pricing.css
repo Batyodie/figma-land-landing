@@ -1,0 +1,10 @@
+@media (width <= 991.98px) {
+  .section-pricing {
+    &_mobile_height {
+      min-height: 808px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@media (width >= 992px) {
+  /* section-testimonials desktop */
+  .section-testimonials {
+    min-height: 839px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__wrapper {
+      min-height: 582px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .section-testimonials__inner {
+    max-width: 550px;
+    width: 100%;
+    min-height: 110px;
+  }
+}

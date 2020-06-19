@@ -1,0 +1,11 @@
+/* btn hover */
+.btn_hover_d {
+  &:hover {
+    background: rgba(1, 151, 199, 1);
+    transition: 0.4s;
+  }
+  &:focus {
+    background: rgba(1, 151, 199, 1);
+    transition: 0.4s;
+  }
+}

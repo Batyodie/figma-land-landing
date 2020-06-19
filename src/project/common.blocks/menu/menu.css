@@ -1,0 +1,35 @@
+/* menu  */
+.menu {
+  &__item {
+    font-family: var(--paragraphe);
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+  }
+
+  /* menu link  */
+  &__link {
+    text-decoration: none;
+    color: var(--titleBold);
+    &:hover {
+      color: var(--accent);
+      transition: 0.5s;
+    }
+  }
+}
+
+/* desktop media */
+@media (width >= 992px) {
+  .menu {
+    &__mobile {
+      transition: none;
+    }
+    &__list {
+      align-items: center;
+      height: 40px;
+      width: 392px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

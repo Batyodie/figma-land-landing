@@ -1,0 +1,8 @@
+/* logo wrapper */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+  height: 78px;
+}

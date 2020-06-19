@@ -1,0 +1,12 @@
+@media (width >= 992px) {
+  .bar {
+    max-width: 757px;
+    width: 100%;
+    &__progress-line {
+      max-width: 757px;
+      &:after {
+        width: 757px;
+      }
+    }
+  }
+}

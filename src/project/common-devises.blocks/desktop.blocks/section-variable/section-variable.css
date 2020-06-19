@@ -1,0 +1,22 @@
+/* section vars-fonts desktop */
+@media (width >= 992px) {
+  .section-vars-fonts {
+    display: flex;
+    &__wrapper {
+      margin-left: 50px;
+      width: 100%;
+      align-items: flex-start;
+    }
+    &__copy {
+      text-align: left;
+    }
+  }
+}
+.section-vars-fonts__copy_margin_bottom {
+  margin-bottom: 20px;
+}
+@media (width >= 1024px) {
+  .section-vars-fonts__wrapper_mobile_margin{
+    margin-left: 0;
+  }
+}

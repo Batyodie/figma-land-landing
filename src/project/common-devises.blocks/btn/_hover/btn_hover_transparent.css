@@ -1,0 +1,6 @@
+.btn_hover_transparent {
+  &:hover {
+    background: var(--buttonBackground);
+    color: #fff;
+  }
+}

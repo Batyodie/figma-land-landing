@@ -1,0 +1,9 @@
+/* burger-btn hover modif  */
+.burger-btn_hovered {
+  &:hover {
+    .burger-btn__stroke_width_20,
+    .burger-btn__stroke_width_10 {
+      width: 26px;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+@media (width <= 375.98px) {
+  .btn_size_small {
+    width: 120px;
+  }
+}

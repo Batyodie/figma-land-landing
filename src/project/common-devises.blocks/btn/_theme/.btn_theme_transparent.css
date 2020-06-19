@@ -1,0 +1,5 @@
+.btn_theme_transparent{
+  background: #fff;
+  color: var(--buttonBackground);
+  border: 1px solid var(--buttonBackground);
+}

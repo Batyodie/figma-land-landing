@@ -1,0 +1,39 @@
+.bar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: all 0.5s ease-in-out;
+  &__progress-line {
+    background: var(--accent);
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 10px;
+    display: block;
+    height: 15px;
+    border-radius: 9px;
+    position: relative;
+    &:after {
+      content: '';
+      z-index: -1;
+      height: 15px;
+      background-color: #eaeaea;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border-radius: 9px;
+    }
+  }
+  &__label {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #505d6f;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.bar_margin_52 {
+  margin: 52px 0;
+}

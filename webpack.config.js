@@ -8,6 +8,9 @@ const TerserWebpackPlugin = require('terser-webpack-plugin')
 const postcssPresetEnv = require('postcss-preset-env');
 const postcss = require('postcss-nested')
 // const postcss-scss = require('postcss-scss')
+const StylelintPlugin = require('stylelint-webpack-plugin');
+
+
 
 const isDev = process.env.NODE_ENV === 'development'
 const isProd = !isDev
@@ -90,11 +93,12 @@ module.exports = {
     optimization: optimization(),
     devServer: {
         port: 4200,
-        hot: isDev,
+        hot: false,
     },
     plugins: [
         new HTMLWebpackPlugin({
             template: './index.html',
+            inject: 'body',
             minify: {
                 collapseWhitespace: isProd,
             }
@@ -110,16 +114,41 @@ module.exports = {
             filename: filename('css'),
         }),
 
+
+
+
     ],
     module: {
         rules: [
             {
                 test: /\.css$/,
-                use: cssLoaders(),
+                use: [
+                    'style-loader',
+                    { loader: 'css-loader', options: { importLoaders: 1 } },
+                    { loader: 'postcss-loader', options: {
+                            ident: 'postcss',
+                            plugins: () => [
+                                postcssPresetEnv({
+                                    stage: 1
+                                })
+                            ]
+                        } }
+                ]
             },
             {
                 test: /\.less$/,
-                use: cssLoaders('less-loader')
+                use: [
+                    'style-loader',
+                    { loader: 'css-loader', options: { importLoaders: 1 } },
+                    { loader: 'postcss-loader', options: {
+                            ident: 'postcss',
+                            plugins: () => [
+                                postcssPresetEnv({
+                                    stage: 2
+                                })
+                            ]
+                        } }
+                ]
             },
             {
                 test: /\.s[ac]ss$/,

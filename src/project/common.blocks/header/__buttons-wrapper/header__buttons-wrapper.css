@@ -1,0 +1,34 @@
+/* header buttons wrapper */
+.header__buttons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media (width >= 992px) {
+  .header__buttons-wrapper {
+    justify-content: flex-end;
+  }
+}
+
+@media (width <= 991.98px) {
+  .header__buttons-wrapper {
+    justify-content: space-between;
+  }
+}
+
+@media (width >= 376px) {
+  /* header buttons wrapper */
+  .header__buttons-wrapper {
+    max-width: 200px;
+    width: 100%;
+  }
+}
+
+@media (width <= 375px) {
+  /* header buttons wrapper */
+  .header__buttons-wrapper {
+    max-width: 160px;
+    width: 100%;
+    margin-right: 0;
+  }
+}

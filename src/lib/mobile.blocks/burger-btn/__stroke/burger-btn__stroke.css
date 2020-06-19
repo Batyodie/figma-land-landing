@@ -1,0 +1,7 @@
+/* burger-btn line */
+.burger-btn__stroke {
+  background: #000;
+  height: 2px;
+  width: 26px;
+  transition: 0.5s;
+}

@@ -1,0 +1,102 @@
+/* project basis styles */
+@import './project/styles/reset.css';
+@import './project/styles/fonts.css';
+@import './project/styles/vars.css';
+@import './project/styles/break-points.css';
+
+/* project common blocks */
+
+/* page__body */
+@import './project/common.blocks/page/__body.css';
+
+/* header */
+@import './project/common.blocks/header/header.css';
+@import './project/common.blocks/header/__wrapper/header__wrapper.css';
+@import './project/common.blocks/header/__buttons-wrapper/header__buttons-wrapper.css';
+@import './project/common.blocks/header/__logo/header__logo.css';
+
+/* logo */
+@import 'project/common.blocks/logo/logo.css';
+@import 'project/common.blocks/logo/__image/logo__image.css';
+
+/* menu */
+@import './project/common.blocks/menu/menu.css';
+
+/* btn */
+@import './project/common.blocks/btn/btn.css';
+@import 'project/common.blocks/btn/_hover/btn_hover_d.css';
+@import './project/common.blocks/btn/_size/btn_size_d.css';
+@import './project/common.blocks/btn/_theme/btn_theme.css';
+@import 'project/common.blocks/btn/_active/btn_active_d.css';
+@import './project/common.blocks/btn/__body/btn__body.css';
+@import 'project/common.blocks/btn/_fonts/btn__body_fonts_d.css';
+
+/* content */
+@import './project/common.blocks/content/content.css';
+
+/* bar */
+@import './project/common.blocks/bar/bar.css';
+
+/* card */
+@import './project/common.blocks/card/card.css';
+
+/* section-pricing */
+@import 'project/common.blocks/section-pricing/section-pricing.css';
+
+/* footer */
+@import 'project/common.blocks/footer/footer.css';
+
+/* modal */
+@import './project/common.blocks/modal/modal.css';
+
+/* project common devises blocks */
+@import 'project/common-devises.blocks/btn/_theme/.btn_theme_transparent.css';
+@import 'project/common-devises.blocks/btn/_hover/btn_hover_transparent.css';
+@import 'project/common.blocks/section-variable/section-variable.css';
+
+/* project desktop blocks */
+@import 'project/common-devises.blocks/desktop.blocks/content/content.css';
+@import 'project/common-devises.blocks/desktop.blocks/section-variable/section-variable.css';
+
+/* footer */
+@import 'project/common-devises.blocks/desktop.blocks/footer/footer.css';
+
+/* bar */
+@import 'project/common-devises.blocks/desktop.blocks/bar/bar.css';
+
+/* section testimonials */
+@import 'project/common-devises.blocks/desktop.blocks/section-testimonials/section-testimonials.css';
+
+/* section-file-task */
+@import 'project/common-devises.blocks/desktop.blocks/section-file-task/section-file-task.css';
+
+/* project mobile blocks */
+@import 'project/common-devises.blocks/mobile.blocks/section-variable/section-variable.css';
+@import './project/common-devises.blocks/mobile.blocks/content/content.css';
+@import 'project/common-devises.blocks/mobile.blocks/burger-btn/burger-btn.css';
+
+/* section testimonials */
+@import 'project/common-devises.blocks/mobile.blocks/section-testimonials/section-testimonials.css';
+
+/* bar */
+@import 'project/common-devises.blocks/mobile.blocks/bar/bar.css';
+
+/* mobile btn */
+@import 'project/common-devises.blocks/mobile.blocks/btn/btn_size_small.css';
+
+/* mobile menu */
+@import 'project/common-devises.blocks/mobile.blocks/menu/menu.css';
+
+/* section pricing */
+@import 'project/common-devises.blocks/mobile.blocks/section-pricing/section-pricing.css';
+
+/* footer */
+@import 'project/common-devises.blocks/mobile.blocks/footer/footer.css';
+body {
+  font-family: var(--paragraphe);
+  font-size: 19px;
+  line-height: 30px;
+  font-style: normal;
+  overflow-x: hidden;
+  color: var(--basisText);
+}
