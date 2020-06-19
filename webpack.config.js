@@ -92,6 +92,8 @@ module.exports = {
     },
     optimization: optimization(),
     devServer: {
+        host: '192.168.0.101',
+        disableHostCheck: true,
         port: 4200,
         hot: false,
     },

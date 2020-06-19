@@ -92,6 +92,9 @@
 
 /* footer */
 @import 'project/common-devises.blocks/mobile.blocks/footer/footer.css';
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: var(--paragraphe);
   font-size: 19px;

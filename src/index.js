@@ -23,9 +23,8 @@ const modal = $.modal({
     ]
 })
 const button = document.querySelectorAll('.btn')
-
-button.forEach(function (e) {
-e.addEventListener('click', function () {
+    button.forEach(function (e) {
+    e.addEventListener('click', function () {
     modal.open()
-})
+    })
 })
