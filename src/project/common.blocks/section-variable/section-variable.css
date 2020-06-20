@@ -29,6 +29,7 @@
     letter-spacing: 0.2px;
     color: var(--basisText);
     margin-bottom: 7px;
+    max-width: 450px;
   }
   &__link {
     text-decoration: none;

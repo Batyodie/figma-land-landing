@@ -10,8 +10,9 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open"
   },
   "browserslist": [
-    "> 1%",
-    "last 3 version"
+    "> 0.25%",
+    "not dead",
+    "IE 11"
   ],
   "author": "Semen Nemtirev <gr.s.joe@gmail.com>",
   "license": "ISC",
